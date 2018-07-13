@@ -185,7 +185,6 @@ figure {
   margin-right: 0;
 }
 
-
 .about {
   background-color: #333333;
   color: #ffffff;
@@ -194,4 +193,50 @@ figure {
 
 .about > p {
   margin: 0;
+}
+
+
+/* media screen mobile */
+@media screen and (min-width:460px){
+  body {
+    margin-left: 70px;
+  }
+
+  }
+  .site-logo-image {
+    position: fixed;
+    left: 10px;
+    top: 20px;
+    height: 50px;
+    width: 50px;
+
+  }
+  .site-nav {
+    position: fixed;
+    width: 70px;
+    height: 100%;
+    left: 0;
+    display: block;
+    z-index: 2;
+    font-size: 0.5em;
+    overflow: hidden;
+  }
+
+  .site-nav-item {
+    display: block;
+    text-align: center;
+    float: none;
+    width: 100%;
+    position: relative;
+    top: 80px;
+  }
+}
+
+
+@media screen (min-width:768px){
+
+}
+
+@media screen (min-width:992px){
+
 }
