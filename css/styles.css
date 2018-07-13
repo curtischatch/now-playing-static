@@ -230,6 +230,13 @@ figure {
     position: relative;
     top: 80px;
   }
+
+  .movie-details {
+    padding: 20px;
+  }
+  .movie-overview {
+    display: block;
+  }
 }
 
 
