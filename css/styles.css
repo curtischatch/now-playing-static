@@ -197,11 +197,9 @@ figure {
 
 
 /* media screen mobile */
-@media screen and (min-width:460px){
+@media screen and (min-width:768px){
   body {
     margin-left: 70px;
-  }
-
   }
   .site-logo-image {
     position: fixed;
@@ -237,6 +235,22 @@ figure {
   .movie-overview {
     display: block;
   }
+
+  .footer-nav {
+    float: left;
+    width: 50%;
+  }
+
+  .about {
+    float: right;
+    width: 50%;
+  }
+  }
+
+
+footer .site-footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 
